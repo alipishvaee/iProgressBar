@@ -1,0 +1,16 @@
+PODS:
+  - iProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - iProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  iProgressBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iProgressBar: 5df4c5304d4cfc079bafd1a67e57138502a22709
+
+PODFILE CHECKSUM: 64b382868c92ebbba7e294aa6ed3376f4c579d9c
+
+COCOAPODS: 1.9.1

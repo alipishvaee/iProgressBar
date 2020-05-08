@@ -1,0 +1,22 @@
+{
+  "name": "iProgressBar",
+  "version": "0.1.0",
+  "summary": "A short description of iProgressBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alipishvaee2@Gmail.com/iProgressBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alipishvaee2@Gmail.com": "alipishvaee2@Gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alipishvaee2@Gmail.com/iProgressBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iProgressBar/Classes/**/*"
+}

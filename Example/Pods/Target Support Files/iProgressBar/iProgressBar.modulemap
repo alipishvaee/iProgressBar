@@ -1,0 +1,6 @@
+framework module iProgressBar {
+  umbrella header "iProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
