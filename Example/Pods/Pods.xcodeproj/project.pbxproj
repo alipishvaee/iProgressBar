@@ -13,7 +13,8 @@
 		2EEC2D9FC089257469FECB381F88C179 /* iProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3A1BE0EFC5ACB9F5F73246A74995E2 /* iProgressBar-dummy.m */; };
 		4F8EFA11A8DE3FEA488137B64AB8869D /* Pods-iProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 777FC12125657D8363FA1457568B96B7 /* Pods-iProgressBar_Example-dummy.m */; };
 		5733AC547748194E55A74CFE6E732AC4 /* Pods-iProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1F57B97ECA0228F1368EC830A09923 /* Pods-iProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		751476A58470AC27330720811BB02C08 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DFB4FDB416644EC6817D9CCED502E /* ReplaceMe.swift */; };
+		9B036C282465E9A600BF3AD4 /* iProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B036C272465E9A600BF3AD4 /* iProgressBar.swift */; };
+		9B036C2B2465E9E900BF3AD4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B036C2A2465E9E900BF3AD4 /* UIViewExtension.swift */; };
 		A28296B07333B5D636396B6930DC16E8 /* Pods-iProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF78C49BC31F908D251B288B7BA3F1 /* Pods-iProgressBar_Tests-dummy.m */; };
 		EF723A64FF47A828DF57C1D2C1799F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FCD71FC22DB9264F9F96894A12727B78 /* iProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C01DA278C2ECB219FE3B0352241249 /* iProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,17 +39,16 @@
 
 /* Begin PBXFileReference section */
 		01775C4771CA167B2B038F7610C73710 /* Pods-iProgressBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iProgressBar_Example.modulemap"; sourceTree = "<group>"; };
-		073DFB4FDB416644EC6817D9CCED502E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iProgressBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0CF4AB38732379AE5777BA36F1D25E78 /* Pods-iProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D7F0A78CFD11832836B184E2328D914 /* Pods-iProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1BF24726EBAB56C75E6A73DAC9C50A2E /* Pods_iProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iProgressBar_Tests.framework; path = "Pods-iProgressBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF24726EBAB56C75E6A73DAC9C50A2E /* Pods_iProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2000D01E9491819DAA4BE08ECE16E3B3 /* Pods-iProgressBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iProgressBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		379BB5B76F6AD6671391D3ED0C32D2FC /* Pods-iProgressBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iProgressBar_Tests.modulemap"; sourceTree = "<group>"; };
 		3C1F57B97ECA0228F1368EC830A09923 /* Pods-iProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5685EE1963DA675A93903B63C1547BDD /* iProgressBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = iProgressBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5685EE1963DA675A93903B63C1547BDD /* iProgressBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iProgressBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C89EFF1F58AE2CD0F61EDBDAD7B073A /* Pods-iProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CFEC0DA2BFE8757A6F30CF05B917269 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5CFEC0DA2BFE8757A6F30CF05B917269 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5E926B25B9E9C99E330B57C692583245 /* Pods-iProgressBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iProgressBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		5F7FAF8A38E616DC90659EA9E64645DB /* iProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iProgressBar-prefix.pch"; sourceTree = "<group>"; };
 		65BF78C49BC31F908D251B288B7BA3F1 /* Pods-iProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -56,17 +56,19 @@
 		777FC12125657D8363FA1457568B96B7 /* Pods-iProgressBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iProgressBar_Example-dummy.m"; sourceTree = "<group>"; };
 		8D3A1BE0EFC5ACB9F5F73246A74995E2 /* iProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iProgressBar-dummy.m"; sourceTree = "<group>"; };
 		955735FB8AA85280343EA5B0B56F3427 /* Pods-iProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DCC283611F2B5BD83D28FCB57B34BE8 /* Pods_iProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iProgressBar_Example.framework; path = "Pods-iProgressBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B036C272465E9A600BF3AD4 /* iProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iProgressBar.swift; sourceTree = "<group>"; };
+		9B036C2A2465E9E900BF3AD4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCC283611F2B5BD83D28FCB57B34BE8 /* Pods_iProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051413DC20BD34BAE96984AB6DDE5AF /* Pods-iProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3F18E1D15C221E99E9C5C9F43B1EAEA /* iProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProgressBar.debug.xcconfig; sourceTree = "<group>"; };
 		D553070A02536B092829742C153BC47B /* Pods-iProgressBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iProgressBar_Example-Info.plist"; sourceTree = "<group>"; };
 		D62848F3EE0891779408B9571A1EE99F /* iProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iProgressBar-Info.plist"; sourceTree = "<group>"; };
 		E25B5F30CD62C320E93ECED19637D719 /* Pods-iProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E94ECEEF94F1C133B583CCD6E8768A9C /* iProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iProgressBar.release.xcconfig; sourceTree = "<group>"; };
-		EAC5212013C7FD4260129E3B2563B252 /* iProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iProgressBar.framework; path = iProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5212013C7FD4260129E3B2563B252 /* iProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF68254EA900EE96992C2BF4D313D47 /* iProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iProgressBar.modulemap; sourceTree = "<group>"; };
-		F021E6A006F48FA1339FA148D6C1B494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F021E6A006F48FA1339FA148D6C1B494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F41557AFC9E7B357B7C1644ABBDB6503 /* Pods-iProgressBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iProgressBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		F9860559EFAE7C757441C9E660F5C4C2 /* Pods-iProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F9A03CD5702948CB8CE82DF94480A29D /* Pods-iProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -118,7 +120,8 @@
 		29F1A429A7D8975FD21BC5BE70F5F335 /* iProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				073DFB4FDB416644EC6817D9CCED502E /* ReplaceMe.swift */,
+				9B036C292465E9D100BF3AD4 /* Helper */,
+				9B036C262465E8E800BF3AD4 /* Source */,
 				9A1C7C7DD26B4CFA1B91A8A67714D16B /* Pod */,
 				11283CFAEA77363A6042D4DC274D50A8 /* Support Files */,
 			);
@@ -170,6 +173,22 @@
 				F021E6A006F48FA1339FA148D6C1B494 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B036C262465E8E800BF3AD4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9B036C272465E9A600BF3AD4 /* iProgressBar.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9B036C292465E9D100BF3AD4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9B036C2A2465E9E900BF3AD4 /* UIViewExtension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -317,6 +336,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					745A93B9EBF4DF3C0BA35193B66195A9 = {
+						DevelopmentTeam = K28F8V87DB;
+					};
+					9E54CA98E307CCC6374BBCEC5EFDF129 = {
+						DevelopmentTeam = K28F8V87DB;
+					};
+					D35FAC1169EF82B013171B8FE5DDD91A = {
+						DevelopmentTeam = K28F8V87DB;
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,8 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B036C2B2465E9E900BF3AD4 /* UIViewExtension.swift in Sources */,
+				9B036C282465E9A600BF3AD4 /* iProgressBar.swift in Sources */,
 				2EEC2D9FC089257469FECB381F88C179 /* iProgressBar-dummy.m in Sources */,
-				751476A58470AC27330720811BB02C08 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,18 +443,19 @@
 			baseConfigurationReference = A051413DC20BD34BAE96984AB6DDE5AF /* Pods-iProgressBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iProgressBar_Tests/Pods-iProgressBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iProgressBar_Tests/Pods-iProgressBar_Tests.modulemap";
@@ -443,27 +476,30 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E94ECEEF94F1C133B583CCD6E8768A9C /* iProgressBar.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/iProgressBar/iProgressBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/iProgressBar/iProgressBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/iProgressBar/iProgressBar.modulemap";
 				PRODUCT_MODULE_NAME = iProgressBar;
 				PRODUCT_NAME = iProgressBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -476,18 +512,19 @@
 			baseConfigurationReference = F9860559EFAE7C757441C9E660F5C4C2 /* Pods-iProgressBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iProgressBar_Example/Pods-iProgressBar_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iProgressBar_Example/Pods-iProgressBar_Example.modulemap";
@@ -552,13 +589,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -569,18 +605,19 @@
 			baseConfigurationReference = 0D7F0A78CFD11832836B184E2328D914 /* Pods-iProgressBar_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iProgressBar_Example/Pods-iProgressBar_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iProgressBar_Example/Pods-iProgressBar_Example.modulemap";
@@ -649,7 +686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -666,27 +703,31 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3F18E1D15C221E99E9C5C9F43B1EAEA /* iProgressBar.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/iProgressBar/iProgressBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/iProgressBar/iProgressBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/iProgressBar/iProgressBar.modulemap";
 				PRODUCT_MODULE_NAME = iProgressBar;
 				PRODUCT_NAME = iProgressBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -698,18 +739,19 @@
 			baseConfigurationReference = E25B5F30CD62C320E93ECED19637D719 /* Pods-iProgressBar_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K28F8V87DB;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iProgressBar_Tests/Pods-iProgressBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iProgressBar_Tests/Pods-iProgressBar_Tests.modulemap";
