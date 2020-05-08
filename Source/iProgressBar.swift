@@ -42,7 +42,7 @@ import UIKit
         progressIndicator.layer.cornerRadius = CornerRadius
         progressIndicator.clipsToBounds = true
         [progressContainer, progressIndicator].forEach{( addSubview($0) )}
-        bringSubviewToFront(progressIndicator)
+//        bringSubview(toFront: progressIndicator)
     }
     
     override func layoutSubviews() {
