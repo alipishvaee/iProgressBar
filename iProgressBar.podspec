@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/alipishvaee2@Gmail.com/iProgressBar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alipishvaee2@Gmail.com' => 'alipishvaee2@Gmail.com' }
+  s.author           = { 'alipishvaee2@Gmail.com' }
   s.source           = { :git => 'https://github.com/alipishvaee2@Gmail.com/iProgressBar.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'iProgressBar/**/*'
